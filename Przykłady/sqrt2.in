@@ -1,0 +1,18 @@
+% Dowód na to, że pierwiastek z 2 jest liczbą niewymierną
+
+formulas(assumptions).
+1*x = x.                            % identity
+x*1 = x.
+x*(y*z) = (x*y)*z.                  % associativity
+x*y = y*x.                          % commutativity
+(x*y = x*z ) -> y = z.              % cancellation (0 is not allowed, so x!=0).
+
+divides(x,y) <-> (exists z x*z = y).
+
+divides(2,x*y) ->
+  (divides(2,x) | divides(2,y)).    % If 2 divides x*y, it divides x or y.
+a*a = (2*(b*b)).                    % a/b = sqrt(2), so a^2 = 2 * b^2.
+(x != 1) ->  -(divides(x,a) &
+               divides(x,b)).       % a/b is in lowest terms
+2 != 1.                             % Original author almost forgot this.
+end_of_list.

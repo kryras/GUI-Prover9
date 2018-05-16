@@ -1,0 +1,16 @@
+% Dowód na to, że pierwiastek z 2 jest liczbą niewymierną
+
+wyrażenia ( założenia ) .
+1 razy x równa się x .
+x razy 1 równa się x .
+x razy ( y razy z ) równa się ( x razy y ) razy z .  
+x razy y równa się y razy x .                          
+jeżeli ( x razy y równa się x razy z ) to y równa się z .
+dzielicSie ( x , y ) jest równoważne ( istnieje z ( x razy z równa się y ) ) .
+
+jeżeli dzielicSie ( 2 , x razy y ) to ( dzielicSie ( 2 , x ) alternatywa dzielicSie ( 2 , y ) ) .
+a razy a równa się ( 2 razy ( b razy b ) ) .
+jeżeli ( x różne od 1) to  negacja ( dzielicSie ( x , a ) koniunkcja dzielicSie ( x , b ) ) .
+2 różne od 1 .
+
+koniec listy .

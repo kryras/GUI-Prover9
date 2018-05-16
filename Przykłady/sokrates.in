@@ -1,0 +1,8 @@
+formulas(assumptions).
+  czlowiek(x) -> smiertelny(x).
+  czlowiek(sokrates).
+end_of_list.
+
+formulas(goals).
+  smiertelny(sokrates).
+end_of_list.
